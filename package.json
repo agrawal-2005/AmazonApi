@@ -1,0 +1,20 @@
+{
+  "name": "createapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "promise-retry": "^2.0.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
